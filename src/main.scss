@@ -1,0 +1,15 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  --primary: #1976d2;
+  --light: #42a5f5;
+  --dark: #1565c0;
+  --contrastText: #fff;
+}
+
+#root {
+  margin: 0;
+  height: 100%;
+  display: grid;
+}

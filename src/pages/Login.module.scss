@@ -1,0 +1,30 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary);
+}
+
+.modal {
+  padding: 20px;
+  // height: 50%;
+  // max-height: 420px;
+  width: 60%;
+  max-width: 300px;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
